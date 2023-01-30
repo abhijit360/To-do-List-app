@@ -1,0 +1,53 @@
+body{
+    background-color: #21CE10;
+    color:#ffffff;
+    font-size:16px;
+    
+}
+
+.container{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    margin-top:150px;
+}
+
+input[type='text']{
+    border-radius: 4px;
+    border: none;
+    min-width: 250px;
+}
+
+
+li {
+    text-align: left;
+    list-style: none;
+}
+
+
+
+.event{
+    float:left;
+    margin: 25px;
+    width: 200px;
+    padding:15px;
+
+    color: black;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.imp-1 {
+    background-color:rgb(255, 255, 255);
+}
+
+.imp-2 {
+    background-color: rgb(193, 99, 12);
+}
+
+.imp-3{
+    background-color: red;
+}
+
+input[type='checkbox']{
+    float:right;
+}

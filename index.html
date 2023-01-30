@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='C:\Users\kamat\Javascript projects\script.js' type="text/javascript" async></script>
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To do list</h1>
+        <p>Enter <strong>text</strong> into the input field to add items to your list.</p>
+        <p>You may link a level of importance to the task</p>
+        <p>Click the item to mark it as complete</p>
+    
+
+        <div id="add-event-bar">
+            <form id="event-importance-form">
+                <input type='text' id="user-input" placeholder="Add Event" >
+                <label>Importance:</label>
+                <select  id="Importance-val" >
+                    <option value="imp-1">*</option>
+                    <option value="imp-2">**</option>
+                    <option value="imp-3">***</option>
+                </select>
+                <input type="button" id="addEvent" value="Add!">
+            </form
+        </div>
+
+        
+        <ul id="events">
+
+        </ul>
+    </div>
+</body>
+</html>
